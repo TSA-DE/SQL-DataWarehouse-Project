@@ -1,4 +1,9 @@
-
+/*
+================================================================================================
+Script purpose :
+This script creates tables in the silver schema , dropping excisting tables if they already exists 
+================================================================================================
+*/
 --creating tables for CRM system
 IF OBJECT_ID('silver.crm_cust_info','U') IS NOT NULL 
 	DROP TABLE silver.crm_cust_info
