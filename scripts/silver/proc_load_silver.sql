@@ -1,6 +1,19 @@
 
 
+/* 
+==============================================================================================
+This stored procedure performs the ETL process to populate the silver schema data from the bronze schema
+Action Performed :
+Truncate silver tables 
+Insert transformed and cleansed data from bronze layer to silver layer 
 
+Parameters :
+NONE 
+
+USAGE EXAMPLE : 
+EXEC Silver.load_silver_layer
+
+*/
 
 USE [MyDataWarehouse]
 GO
