@@ -1,9 +1,4 @@
-/*
-================================================================================================
-Script purpose :
-This script creates tables in the silver schema , dropping excisting tables if they already exists 
-================================================================================================
-*/
+
 
 
 
